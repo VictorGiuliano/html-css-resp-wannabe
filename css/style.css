@@ -137,3 +137,41 @@ justify-content: center;
     width: 768px;
 }
  }
+
+ @media screen and (max-width:481px){
+
+.container{
+    width: 480px;
+}
+.row{
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+.lessons .col img {
+    margin-bottom: 0;
+}
+.text{
+   font-size: 60%;
+}
+.steps .col {
+    width: auto;
+}
+.steps .col img {
+    height: 200px;
+    margin-bottom: 1rem;
+    margin-top: 1.8rem;
+}
+ .card > img{
+    width: 250px;
+ }
+h3{
+    font-size: large;
+}
+p{
+    font-size: 76%;
+}
+ }
